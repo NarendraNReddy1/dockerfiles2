@@ -2,7 +2,7 @@ ARG version=8
 FROM almalinux:${version:-8}
 ARG COURSE="DEVOPS"
 ARG TRAINER="NNR"
-ARG DURATION
+ARG DURATION="120hr"
 ENV DURATION=${DURATION}
 
 CMD ["sleep","100"]
